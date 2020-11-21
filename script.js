@@ -38,7 +38,7 @@ function generatePassword(){
     return password;
   } else {
     (passLength > 7 || passLength < 129)
-    alert("Invalid. Please choose between 8 and 128!"); 
+    alert("Invalid. Please choose a number between 8 and 128!"); 
   }
   
 }
